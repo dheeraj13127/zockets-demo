@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+.whyUsRow{
+    margin-top: 100px;
+}
+.whyUsHeader{
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.whyUsHeadings{
+    font-weight: 600;
+    font-family:'Poppins', sans-serif;
+}
+.whyUsInfo{
+    font-family:'Roboto', sans-serif;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.whyUsSecondCol{
+    margin-top: 80px;
+}
+@media only screen and (max-width: 768px) {
+  
+    .whyUsHeader{
+        font-size: 38px;
+    }
+      }

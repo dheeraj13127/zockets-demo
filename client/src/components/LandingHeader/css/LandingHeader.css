@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+.yellowIcon{
+    color:  #E3B531;
+    
+}
+.purpleIcon{
+    color: #0F6EFF;
+    font-size: 25px;
+}
+.landingHeaderHeader{
+    font-size: 53px;
+    margin-top: 60px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.headerInfo{
+    color: #505050;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.img-fluid{
+    width: 550px;
+    height: 400px;
+}
+.earlyAccessBtn{
+    background-color: #0F6EFF;
+    color: white;
+    font-weight: 550;
+}
+.earlyAccessBtn:hover{
+    background-color: white;
+    color: #0F6EFF;
+    border: 1px solid #0F6EFF;
+}
+@media only screen and (max-width: 768px) {
+    .yellowIcon{
+        display: none;
+    }
+    .purpleIcon{
+        display: none;
+    }
+    .img-fluid{
+        width: 450px;
+        height: 300px;
+    }
+    .landingHeaderHeader{
+        font-size: 45px;
+    }
+  }

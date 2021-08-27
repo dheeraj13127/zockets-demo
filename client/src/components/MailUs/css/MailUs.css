@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+.mailUsRow{
+    margin-top: 100px;
+}
+.mailUsContainer{
+    background: url('../../../assets/backpng.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    border-radius: 20px;
+ 
+}
+.mailImg{
+    width: 175px;
+    height: 150px;
+    
+}
+.mailUsHeader{
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+}
+.earlyAccessBtns{
+    background-color: #0A286B;
+    color: white;
+    font-weight: 550;
+}
+.earlyAccessBtns:hover{
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+    .mailImg{
+        width: 155px;
+        height: 130px;
+        
+    }
+    .mailUsContainer{
+        height: 58vh;
+    }
+      }
+@media only screen and (max-width: 360px) {
+    .mailImg{
+        width: 135px;
+        height: 110px;
+        
+    }
+    
+        .mailUsContainer{
+            height: 80vh;
+        }
+          }
+@media only screen and (min-width: 768px) and (max-width:991px) {
+            .mailImg{
+                width: 135px;
+                height: 110px;
+                
+            }
+            
+                .mailUsContainer{
+                    height: 58vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                  }

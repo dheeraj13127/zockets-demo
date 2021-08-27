@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+.footerRow{
+    margin-top: 100px;
+}
+.copyrightText{
+    color: #606062;
+    font-size: 13px;
+    font-family:'Roboto', sans-serif;
+}
+.footerIcon{
+color: #0F6EFF;
+font-size: 16px;
+margin-left: 12px;
+
+border-radius: 50%;
+background-color: #bad1f3;
+}
+.footerIcons{
+display: flex;
+align-items: center;
+
+}
+.footerCompanyHeader{
+    font-weight: 550;
+    font-family:'Poppins', sans-serif;
+}
+.footerCompanyText{
+    font-size: 13px;
+    color: #606062;
+    font-family:'Roboto', sans-serif;
+}
+.footerAccessHeader{
+    color: #0F6EFF;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+}
+.earlyAccessBtns1{
+    background-color: #bdd1ee;
+    color: #0F6EFF;
+    font-weight: 550;
+}
+.inputEmail{
+    background-color: #bdd1ee;
+  
+}
+.inputEmail::placeholder{
+    color: #606062;
+    font-size: 14px;
+}
+.earlyAccessBtns1:hover{
+  color: white;
+}
